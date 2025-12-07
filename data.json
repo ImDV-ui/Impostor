@@ -2,791 +2,791 @@
   "General": [
     {
       "palabra": "Pizza",
-      "pista": "Comida rápida italiana"
+      "pista": "Redonda, caja cuadrada, se come en triángulos"
     },
     {
       "palabra": "Pollito",
-      "pista": "cria de la gallina"
+      "pista": "Amarillo y rompe el cascarón"
     },
     {
       "palabra": "Hospital",
-      "pista": "Lugar con médicos y enfermos"
+      "pista": "Lugar de batas blancas y olor a limpio"
     },
     {
       "palabra": "Facebook",
-      "pista": "Red social azul"
+      "pista": "El libro de caras azul"
     },
     {
       "palabra": "Guitarra",
-      "pista": "Instrumento de cuerdas"
+      "pista": "Llora cuando sus seis cuerdas vibran"
     },
     {
       "palabra": "Vampiro",
-      "pista": "Monstruo que chupa sangre"
+      "pista": "No se refleja en los espejos"
     },
     {
       "palabra": "Egipto",
-      "pista": "País de las pirámides"
+      "pista": "Donde los gatos eran dioses y los reyes triángulos"
     },
     {
       "palabra": "Titanic",
-      "pista": "Barco que se hundió"
+      "pista": "Ni Dios podía hundirlo, decían"
     },
     {
       "palabra": "Superman",
-      "pista": "Héroe con capa roja"
+      "pista": "¿Es un pájaro? ¿Es un avión?"
     },
     {
       "palabra": "Tiburón",
-      "pista": "Depredador del océano"
+      "pista": "Vas a necesitar un barco más grande"
     },
     {
       "palabra": "Biblioteca",
-      "pista": "Lugar con muchos libros en silencio"
+      "pista": "El templo del silencio y el saber"
     }
   ],
   "Comida": [
     {
       "palabra": "Sushi",
-      "pista": "Comida japonesa con arroz y pescado"
+      "pista": "Pescado que nunca tocó el fuego"
     },
     {
       "palabra": "Tacos",
-      "pista": "Tortilla con carne y salsa"
+      "pista": "México envuelto en maíz"
     },
     {
       "palabra": "Helado",
-      "pista": "Postre frío y dulce"
+      "pista": "Disfrútalo antes de que se haga agua"
     },
     {
       "palabra": "Chocolate",
-      "pista": "Dulce hecho de cacao"
+      "pista": "El oro negro de los aztecas"
     },
     {
       "palabra": "Ensalada",
-      "pista": "Mezcla de vegetales frescos"
+      "pista": "La pesadilla verde de los niños"
     },
     {
       "palabra": "Paella",
-      "pista": "Plato de arroz español con mariscos"
+      "pista": "El sol de Valencia en una sartén"
     },
     {
       "palabra": "Hamburguesa",
-      "pista": "Sandwich con carne picada"
+      "pista": "El ícono entre dos panes"
     },
     {
       "palabra": "Queso",
-      "pista": "Producto lácteo sólido"
+      "pista": "Leche que buscó la inmortalidad"
     }
   ],
   "Lugares": [
     {
       "palabra": "Aeropuerto",
-      "pista": "Donde despegan los aviones"
+      "pista": "Donde los abrazos son más sinceros"
     },
     {
       "palabra": "Cine",
-      "pista": "Lugar para ver películas"
+      "pista": "Sueños proyectados en la oscuridad"
     },
     {
       "palabra": "Playa",
-      "pista": "Arena, mar y sol"
+      "pista": "Donde la tierra se rinde ante el mar"
     },
     {
       "palabra": "Escuela",
-      "pista": "Lugar donde se aprende"
+      "pista": "Fábrica de futuros ciudadanos"
     },
     {
       "palabra": "Gimnasio",
-      "pista": "Lugar para hacer ejercicio"
+      "pista": "Pagas para sufrir y levantar cosas pesadas"
     },
     {
       "palabra": "Zoológico",
-      "pista": "Lugar donde viven animales salvajes"
+      "pista": "Embajada de la selva en la ciudad"
     },
     {
       "palabra": "Cementerio",
-      "pista": "Lugar de descanso final"
+      "pista": "El vecindario más silencioso"
     },
     {
       "palabra": "Supermercado",
-      "pista": "Lugar para comprar comida"
+      "pista": "Laberinto de consumo y carritos"
     }
   ],
   "Profesiones": [
     {
       "palabra": "Bombero",
-      "pista": "Apaga incendios"
+      "pista": "Héroe que lucha contra el elemento rojo"
     },
     {
       "palabra": "Dentista",
-      "pista": "Cuida los dientes"
+      "pista": "Temido por tu boca y tu bolsillo"
     },
     {
       "palabra": "Astronauta",
-      "pista": "Viaja al espacio"
+      "pista": "Trabaja fuera de este mundo"
     },
     {
       "palabra": "Cocinero",
-      "pista": "Prepara alimentos"
+      "pista": "Alquimista de sabores"
     },
     {
       "palabra": "Policía",
-      "pista": "Mantiene el orden y la ley"
+      "pista": "La delgada línea azul"
     },
     {
       "palabra": "Maestro",
-      "pista": "Enseña a los alumnos"
+      "pista": "Siembra semillas en mentes jóvenes"
     },
     {
       "palabra": "Abogado",
-      "pista": "Defiende en la corte"
+      "pista": "Su arma es la ley y la palabra"
     },
     {
       "palabra": "Futbolista",
-      "pista": "Juega al balón con los pies"
+      "pista": "Héroe de estadios y balones"
     }
   ],
   "Animales": [
     {
       "palabra": "Elefante",
-      "pista": "Animal grande con trompa"
+      "pista": "Gigante gris que nunca olvida"
     },
     {
       "palabra": "Jirafa",
-      "pista": "Animal con cuello muy largo"
+      "pista": "Cabeza en las nubes, pies en la tierra"
     },
     {
       "palabra": "Pingüino",
-      "pista": "Ave que nada y vive en el frío"
+      "pista": "Viste de etiqueta pero vive en el hielo"
     },
     {
       "palabra": "León",
-      "pista": "Rey de la selva"
+      "pista": "Duerme mucho para reinar poco"
     },
     {
       "palabra": "Serpiente",
-      "pista": "Reptil sin patas"
+      "pista": "Abraza mortalmente sin tener brazos"
     },
     {
       "palabra": "Mono",
-      "pista": "Primate al que le gustan las bananas"
+      "pista": "Nuestro pariente más divertido"
     },
     {
       "palabra": "Perro",
-      "pista": "El mejor amigo del hombre"
+      "pista": "Fidelidad con cuatro patas"
     },
     {
       "palabra": "Gato",
-      "pista": "Felino doméstico"
+      "pista": "El verdadero dueño de tu casa"
     }
   ],
   "Pokemon": [
     {
       "palabra": "Bulbasaur",
-      "pista": "Planta/Veneno, #001, Bulbo en la espalda"
+      "pista": "El número 001, semilla leal"
     },
     {
       "palabra": "Ivysaur",
-      "pista": "Evolución de Bulbasaur, flor rosada"
+      "pista": "La flor rosada empieza a brotar"
     },
     {
       "palabra": "Venusaur",
-      "pista": "Planta final, flor gigante"
+      "pista": "Una selva andante"
     },
     {
       "palabra": "Charmander",
-      "pista": "Fuego, lagartija naranja"
+      "pista": "Protege su cola de la lluvia"
     },
     {
       "palabra": "Charmeleon",
-      "pista": "Evolución de Charmander, rojo oscuro"
+      "pista": "Garras afiladas y temperamento ardiente"
     },
     {
       "palabra": "Charizard",
-      "pista": "Dragón de fuego volador"
+      "pista": "El dragón que no es tipo dragón"
     },
     {
       "palabra": "Squirtle",
-      "pista": "Agua, tortuga pequeña"
+      "pista": "Líder del escuadrón acuático"
     },
     {
       "palabra": "Wartortle",
-      "pista": "Tortuga con orejas y cola de nube"
+      "pista": "Orejas con alas y longevidad"
     },
     {
       "palabra": "Blastoise",
-      "pista": "Tortuga gigante con cañones"
+      "pista": "Artillería pesada en el caparazón"
     },
     {
       "palabra": "Caterpie",
-      "pista": "Gusano verde"
+      "pista": "El primer bicho que atrapas en el bosque"
     },
     {
       "palabra": "Metapod",
-      "pista": "Capullo verde duro"
+      "pista": "Su única estrategia es endurecerse"
     },
     {
       "palabra": "Butterfree",
-      "pista": "Mariposa morada"
+      "pista": "Libre como una mariposa (adiós Ash)"
     },
     {
       "palabra": "Weedle",
-      "pista": "Gusano marrón con aguijón"
+      "pista": "Oruga con un aguijón en la cabeza"
     },
     {
       "palabra": "Kakuna",
-      "pista": "Capullo amarillo"
+      "pista": "Casi una abeja, pero inmóvil"
     },
     {
       "palabra": "Beedrill",
-      "pista": "Avispa gigante con taladros"
+      "pista": "Taladros gemelos y mucha velocidad"
     },
     {
       "palabra": "Pidgey",
-      "pista": "Pájaro común normal/volador"
+      "pista": "El pájaro de cada ruta inicial"
     },
     {
       "palabra": "Pidgeot",
-      "pista": "Pájaro grande con melena rosa"
+      "pista": "Vuela a velocidad Mach 2"
     },
     {
       "palabra": "Rattata",
-      "pista": "Ratón morado común"
+      "pista": "Sus dientes crecen sin parar"
     },
     {
       "palabra": "Ekans",
-      "pista": "Serpiente morada (Snake al revés)"
+      "pista": "Snake al revés"
     },
     {
       "palabra": "Arbok",
-      "pista": "Cobra gigante (Kobra al revés)"
+      "pista": "Kobra al revés, diseño en el pecho"
     },
     {
       "palabra": "Pikachu",
-      "pista": "Ratón eléctrico amarillo, mascota"
+      "pista": "Nunca quiso entrar en su Pokébola"
     },
     {
       "palabra": "Raichu",
-      "pista": "Evolución de Pikachu, naranja"
+      "pista": "La forma madura y naranja de la mascota"
     },
     {
       "palabra": "Sandshrew",
-      "pista": "Armadillo de arena"
+      "pista": "Bola de tierra defensiva"
     },
     {
       "palabra": "Nidoran",
-      "pista": "Conejo venenoso con pinchos"
+      "pista": "El conejo venenoso"
     },
     {
       "palabra": "Clefairy",
-      "pista": "Hada rosa espacial"
+      "pista": "Vino de la luna en una nave"
     },
     {
       "palabra": "Vulpix",
-      "pista": "Zorro de fuego con 6 colas"
+      "pista": "Seis colas de belleza ardiente"
     },
     {
       "palabra": "Ninetales",
-      "pista": "Zorro dorado de 9 colas"
+      "pista": "Mil años de vida en sus colas"
     },
     {
       "palabra": "Jigglypuff",
-      "pista": "Globo rosa que canta y duerme"
+      "pista": "Si canta, te pinta la cara"
     },
     {
       "palabra": "Zubat",
-      "pista": "Murciélago molesto de cuevas"
+      "pista": "La plaga de todas las cuevas"
     },
     {
       "palabra": "Oddish",
-      "pista": "Hierba con hojas en la cabeza"
+      "pista": "Nabo caminante nocturno"
     },
     {
       "palabra": "Meowth",
-      "pista": "Gato moneda, habla en el anime"
+      "pista": "Gato que aprendió a hablar por amor"
     },
     {
       "palabra": "Psyduck",
-      "pista": "Pato amarillo con jaqueca"
+      "pista": "Dolor de cabeza crónico"
     },
     {
       "palabra": "Golduck",
-      "pista": "Pato azul nadador"
+      "pista": "Nada más rápido que un medallista olímpico"
     },
     {
       "palabra": "Mankey",
-      "pista": "Mono luchador enojado"
+      "pista": "Furia en forma de mono pigmeo"
     },
     {
       "palabra": "Arcanine",
-      "pista": "Perro legendario de fuego"
+      "pista": "Majestuoso perro de leyenda china"
     },
     {
       "palabra": "Poliwag",
-      "pista": "Renacuajo con espiral"
+      "pista": "Sus tripas se ven en espiral"
     },
     {
       "palabra": "Abra",
-      "pista": "Psíquico que se teletransporta"
+      "pista": "Duerme 18 horas y se teletransporta"
     },
     {
       "palabra": "Alakazam",
-      "pista": "Psíquico con dos cucharas"
+      "pista": "IQ de 5000 y dos cucharas"
     },
     {
       "palabra": "Machop",
-      "pista": "Luchador pequeño gris"
+      "pista": "Entrena levantando Graveler"
     },
     {
       "palabra": "Machamp",
-      "pista": "Luchador con cuatro brazos"
+      "pista": "Cuatro brazos para mil golpes"
     },
     {
       "palabra": "Geodude",
-      "pista": "Roca con brazos flotante"
+      "pista": "Roca con brazos, cuidado no la pises"
     },
     {
       "palabra": "Ponyta",
-      "pista": "Caballo de fuego"
+      "pista": "Sus crines queman si no confía en ti"
     },
     {
       "palabra": "Slowpoke",
-      "pista": "Rosa, lento y tonto"
+      "pista": "Siente el dolor 5 segundos tarde"
     },
     {
       "palabra": "Magnemite",
-      "pista": "Imán con ojo y tornillos"
+      "pista": "Se alimenta de centrales eléctricas"
     },
     {
       "palabra": "Farfetch'd",
-      "pista": "Pato con un puerro"
+      "pista": "Delicioso con su propio puerro"
     },
     {
       "palabra": "Doduo",
-      "pista": "Ave de dos cabezas"
+      "pista": "Dos cabezas piensan mejor que una"
     },
     {
       "palabra": "Gastly",
-      "pista": "Bola de gas fantasma"
+      "pista": "95% gas, 5% travesura"
     },
     {
       "palabra": "Haunter",
-      "pista": "Fantasma con manos flotantes"
+      "pista": "Te lame para robar tu vida"
     },
     {
       "palabra": "Gengar",
-      "pista": "Fantasma sombra sonriente"
+      "pista": "La sombra sonriente de Clefable"
     },
     {
       "palabra": "Onix",
-      "pista": "Serpiente gigante de roca"
+      "pista": "Tren de rocas subterráneo"
     },
     {
       "palabra": "Drowzee",
-      "pista": "Tapir que come sueños"
+      "pista": "Descendiente del tapir devorasueños"
     },
     {
       "palabra": "Hypno",
-      "pista": "Hipnotiza con un péndulo"
+      "pista": "Cuidado con su péndulo oscilante"
     },
     {
       "palabra": "Krabby",
-      "pista": "Cangrejo de río"
+      "pista": "Pinzas poderosas en la playa"
     },
     {
       "palabra": "Voltorb",
-      "pista": "Parece una Pokéball"
+      "pista": "Cuidado, no es un objeto, explota"
     },
     {
       "palabra": "Electrode",
-      "pista": "Pokéball invertida explosiva"
+      "pista": "Más rápido que el rayo, boom"
     },
     {
       "palabra": "Exeggcute",
-      "pista": "Grupo de huevos rotos"
+      "pista": "No son huevos, son semillas psíquicas"
     },
     {
       "palabra": "Cubone",
-      "pista": "Lleva el cráneo de su madre"
+      "pista": "El Pokémon más solitario"
     },
     {
       "palabra": "Hitmonlee",
-      "pista": "Luchador de patadas"
+      "pista": "El demonio de las patadas"
     },
     {
       "palabra": "Hitmonchan",
-      "pista": "Luchador boxeador"
+      "pista": "El espíritu del boxeador"
     },
     {
       "palabra": "Lickitung",
-      "pista": "Lengua gigante rosada"
+      "pista": "Su lengua es el doble de su cuerpo"
     },
     {
       "palabra": "Koffing",
-      "pista": "Bola de gas venenoso"
+      "pista": "Flota lleno de aire tóxico"
     },
     {
       "palabra": "Weezing",
-      "pista": "Dos bolas de gas unidas"
+      "pista": "Dos cabezas sufriendo contaminación"
     },
     {
       "palabra": "Rhyhorn",
-      "pista": "Rinoceronte de piedra"
+      "pista": "Cerebro pequeño, fuerza bruta"
     },
     {
       "palabra": "Chansey",
-      "pista": "Enfermera, lleva un huevo"
+      "pista": "Trae felicidad y huevos nutritivos"
     },
     {
       "palabra": "Kangaskhan",
-      "pista": "Canguro con bebé en bolsa"
+      "pista": "Madre protectora por excelencia"
     },
     {
       "palabra": "Horsea",
-      "pista": "Caballito de mar"
+      "pista": "Dispara tinta a presión"
     },
     {
       "palabra": "Goldeen",
-      "pista": "Pez dorado con cuerno"
+      "pista": "La reina de los acuarios"
     },
     {
       "palabra": "Staryu",
-      "pista": "Estrella de mar con joya"
+      "pista": "Regenera su cuerpo si el núcleo brilla"
     },
     {
       "palabra": "Mr. Mime",
-      "pista": "Mimo psíquico con barreras"
+      "pista": "Crea paredes invisibles con sus manos"
     },
     {
       "palabra": "Scyther",
-      "pista": "Mantis religiosa con cuchillas"
+      "pista": "Ninja verde con guadañas"
     },
     {
       "palabra": "Jynx",
-      "pista": "Humanoide de hielo rubia"
+      "pista": "Baila y habla un idioma extraño"
     },
     {
       "palabra": "Electabuzz",
-      "pista": "Eléctrico atigrado amarillo"
+      "pista": "Se come la electricidad de la ciudad"
     },
     {
       "palabra": "Magmar",
-      "pista": "Fuego, pato de lava"
+      "pista": "Nació en la boca de un volcán"
     },
     {
       "palabra": "Pinsir",
-      "pista": "Escarabajo con pinzas en cabeza"
+      "pista": "Te parte en dos con sus cuernos"
     },
     {
       "palabra": "Tauros",
-      "pista": "Toro bravo de tres colas"
+      "pista": "Toro bravo que carga sin parar"
     },
     {
       "palabra": "Magikarp",
-      "pista": "Pez inútil, salpicadura"
+      "pista": "El rey de la salpicadura inútil"
     },
     {
       "palabra": "Gyarados",
-      "pista": "Dragón marino azul furioso"
+      "pista": "Destruye ciudades en su furia"
     },
     {
       "palabra": "Lapras",
-      "pista": "Transporte marino, monstruo del lago"
+      "pista": "Canta tristemente buscando a otros"
     },
     {
       "palabra": "Ditto",
-      "pista": "Copia cualquier forma"
+      "pista": "Esa cara de puntos lo dice todo"
     },
     {
       "palabra": "Eevee",
-      "pista": "Evoluciona en 3 tipos distintos"
+      "pista": "ADN inestable, futuro incierto"
     },
     {
       "palabra": "Vaporeon",
-      "pista": "Eevee de agua"
+      "pista": "Se derrite en el agua invisible"
     },
     {
       "palabra": "Jolteon",
-      "pista": "Eevee eléctrico"
+      "pista": "Pelo erizado como agujas eléctricas"
     },
     {
       "palabra": "Flareon",
-      "pista": "Eevee de fuego"
+      "pista": "Bolsa de llama interna a 1700 grados"
     },
     {
       "palabra": "Porygon",
-      "pista": "Pato digital poligonal"
+      "pista": "Código informático viviente"
     },
     {
       "palabra": "Omanyte",
-      "pista": "Fósil caracol"
+      "pista": "Revivido de una hélice antigua"
     },
     {
       "palabra": "Kabuto",
-      "pista": "Fósil cangrejo herradura"
+      "pista": "Cúpula viviente de hace millones de años"
     },
     {
       "palabra": "Aerodactyl",
-      "pista": "Pterodáctilo fósil"
+      "pista": "Rey de los cielos prehistóricos"
     },
     {
       "palabra": "Snorlax",
-      "pista": "Oso gigante que duerme en el camino"
+      "pista": "Solo despierta para comer"
     },
     {
       "palabra": "Articuno",
-      "pista": "Ave legendaria de hielo"
+      "pista": "Congela el aire al volar"
     },
     {
       "palabra": "Zapdos",
-      "pista": "Ave legendaria eléctrica"
+      "pista": "Cae con el rayo de la tormenta"
     },
     {
       "palabra": "Moltres",
-      "pista": "Ave legendaria de fuego"
+      "pista": "Anuncia la primavera con fuego"
     },
     {
       "palabra": "Dratini",
-      "pista": "Dragón serpiente azul pequeño"
+      "pista": "Muda su piel constantemente"
     },
     {
       "palabra": "Dragonite",
-      "pista": "Dragón naranja amigable"
+      "pista": "Da la vuelta al mundo en 16 horas"
     },
     {
       "palabra": "Mewtwo",
-      "pista": "Clon genético de Mew"
+      "pista": "Creado por la ciencia, corazón frío"
     },
     {
       "palabra": "Mew",
-      "pista": "Pokémon ADN original rosa"
+      "pista": "El ancestro de todos los Pokémon"
     }
   ],
   "ClashRoyale": [
     {
       "palabra": "Caballero",
-      "pista": "Tropa barata con espada y bigote"
+      "pista": "Bigote elegante y buena relación calidad-precio"
     },
     {
       "palabra": "Arqueras",
-      "pista": "Dos chicas con arco y flechas"
+      "pista": "Par de hermanas pelirrosas"
     },
     {
       "palabra": "Bombardero",
-      "pista": "Esqueleto que lanza bombas"
+      "pista": "Gafas de aviador y explosivos"
     },
     {
       "palabra": "Flechas",
-      "pista": "Hechizo de lluvia de proyectiles"
+      "pista": "Lluvia barata contra hordas"
     },
     {
       "palabra": "Gigante",
-      "pista": "Tanque lento que va a estructuras"
+      "pista": "Solo mira a los edificios, ignora lo demás"
     },
     {
       "palabra": "Mosquetera",
-      "pista": "Dispara con cañón de mano morado"
+      "pista": "Casco de hierro y puntería certera"
     },
     {
       "palabra": "Mini P.E.K.K.A",
-      "pista": "Robot pequeño, mucho daño, pancakes"
+      "pista": "Adora los panqueques"
     },
     {
       "palabra": "Bebé Dragón",
-      "pista": "Volador verde que escupe fuego"
+      "pista": "Escupe fuego y vuela, pero es adorable"
     },
     {
       "palabra": "Ejército de Esqueletos",
-      "pista": "Multitud de Larrys débiles"
+      "pista": "La pesadilla de los tanques sin área"
     },
     {
       "palabra": "Bruja",
-      "pista": "Invoca esqueletos y dispara magia"
+      "pista": "No la dejes sola, o llenará la arena de Larrys"
     },
     {
       "palabra": "Príncipe",
-      "pista": "Carga a caballo con lanza"
+      "pista": "Doble daño si toma carrerilla"
     },
     {
       "palabra": "Duendes",
-      "pista": "Tres verdes con cuchillos"
+      "pista": "Tres pequeños navajeros"
     },
     {
       "palabra": "Duendes con Lanza",
-      "pista": "Verdes que tiran lanzas"
+      "pista": "Baratos y molestos a distancia"
     },
     {
       "palabra": "Valquiria",
-      "pista": "Chica con hacha que gira"
+      "pista": "Gira y limpia todo a su alrededor"
     },
     {
       "palabra": "Barril de Duendes",
-      "pista": "Se lanza a cualquier parte de la arena"
+      "pista": "Sorpresa voladora directa a tu torre"
     },
     {
       "palabra": "Bola de Fuego",
-      "pista": "Hechizo naranja de daño medio"
+      "pista": "¡Fuuuush! Y adiós magos"
     },
     {
       "palabra": "Descarga (Zap)",
-      "pista": "Hechizo eléctrico barato, aturde"
+      "pista": "Resetea torres infernales por poco coste"
     },
     {
       "palabra": "Montapuercos",
-      "pista": "Salta el río con un martillo"
+      "pista": "¡HOG RIDER! Saltando el río"
     },
     {
       "palabra": "Mago",
-      "pista": "Lanza bolas de fuego, 'Showtime'"
+      "pista": "Controla el fuego y el peinado"
     },
     {
       "palabra": "Torre Infernal",
-      "pista": "Edificio que quema tanques"
+      "pista": "Cuanto más te mira, más duele"
     },
     {
       "palabra": "P.E.K.K.A",
-      "pista": "Robot samurai pesado y lento"
+      "pista": "¿Mariposa? ¡Destrucción!"
     },
     {
       "palabra": "Mago de Hielo",
-      "pista": "Legendaria que ralentiza tropas"
+      "pista": "Congela el tiempo (y las tropas)"
     },
     {
       "palabra": "Minero",
-      "pista": "Excava a cualquier lugar"
+      "pista": "El único que viaja bajo tierra"
     },
     {
       "palabra": "Princesa",
-      "pista": "Dispara flechas de fuego desde el puente"
+      "pista": "Te dispara desde el otro lado del puente"
     },
     {
       "palabra": "Gigante Noble",
-      "pista": "Gigante con cañón de lejos"
+      "pista": "Odiado por todos, dispara cañonazos de lejos"
     },
     {
       "palabra": "Bárbaros de Élite",
-      "pista": "Dos rubios muy rápidos y fuertes"
+      "pista": "Rápidos, fuertes y con cascos vikingos"
     },
     {
       "palabra": "Espíritu de Hielo",
-      "pista": "Bolita kamikaze que congela"
+      "pista": "Un segundo de congelación por casi nada"
     },
     {
       "palabra": "Golem",
-      "pista": "Roca gigante que explota en golemitas"
+      "pista": "Lento, rocoso y explota dos veces"
     },
     {
       "palabra": "Tronco",
-      "pista": "Pedazo de madera que empuja todo"
+      "pista": "Odia a la princesa y rueda sin parar"
     },
     {
       "palabra": "Chispitas",
-      "pista": "Carro con bobina eléctrica devastadora"
+      "pista": "Basura con ruedas... hasta que dispara"
     },
     {
       "palabra": "Cementerio",
-      "pista": "Hechizo que genera esqueletos"
+      "pista": "Donde pongas el círculo, salen muertos"
     },
     {
       "palabra": "Megacaballero",
-      "pista": "Tanque que salta y aplasta"
+      "pista": "Cae del cielo con dos bolas de pinchos"
     },
     {
       "palabra": "Bandida",
-      "pista": "Carga invulnerable rápida"
+      "pista": "Ni la tocas cuando se impulsa"
     },
     {
       "palabra": "Fantasma Real",
-      "pista": "Invisible hasta que ataca"
+      "pista": "Solo lo ves cuando te pega"
     },
     {
       "palabra": "Arquero Mágico",
-      "pista": "Flecha que atraviesa objetivos"
+      "pista": "La geometría es su mejor arma"
     },
     {
       "palabra": "Dragón Infernal",
-      "pista": "Bebé dragón con casco y rayo láser"
+      "pista": "Casco, tanque y rayo láser"
     },
     {
       "palabra": "Bruja Nocturna",
-      "pista": "Invoca murciélagos"
+      "pista": "Sus hijos vuelan en vez de caminar"
     },
     {
       "palabra": "Globo Bombástico",
-      "pista": "Esqueleto que tira bomba a torre"
+      "pista": "Si llega a tu torre, estás frito"
     },
     {
       "palabra": "Cohete",
-      "pista": "Hechizo de daño masivo pero lento"
+      "pista": "Daño nuclear, pero no falles"
     },
     {
       "palabra": "Ballesta",
-      "pista": "Edificio que dispara muy rápido"
+      "pista": "Ametralladora de asedio desde tu lado"
     },
     {
       "palabra": "Mortero",
-      "pista": "Edificio que lanza bolas de piedra lejos"
+      "pista": "Lanza rocas al área ciega"
     },
     {
       "palabra": "Choza de Bárbaros",
-      "pista": "Casa que genera bárbaros"
+      "pista": "Generador de tipos duros constante"
     },
     {
       "palabra": "Horno",
-      "pista": "Caldero que genera espíritus de fuego"
+      "pista": "Pancakes de fuego cada pocos segundos"
     },
     {
       "palabra": "Lápida",
-      "pista": "Tumba que genera esqueletos"
+      "pista": "Débil estructura, pero molesta esqueletos"
     },
     {
       "palabra": "Tornado",
-      "pista": "Hechizo que atrae tropas al centro"
+      "pista": "Activa tu torre central si eres listo"
     },
     {
       "palabra": "Clon",
-      "pista": "Duplica tropas con 1 de vida"
+      "pista": "Doble de riesgo, mitad de vida"
     },
     {
       "palabra": "Verdugo",
-      "pista": "Lanza un hacha tipo boomerang"
+      "pista": "Cocina y corta cabezas con su hacha"
     },
     {
       "palabra": "Lanzarrocas",
-      "pista": "Monstruo azul que tira piedras rodantes"
+      "pista": "Le gusta el dark elixir y los bolos"
     },
     {
       "palabra": "Cañón",
-      "pista": "Defensa barata terrestre"
+      "pista": "Defensa básica pero efectiva"
     },
     {
       "palabra": "Tesla",
-      "pista": "Defensa eléctrica que se esconde"
+      "pista": "Se esconde bajo tierra si no hay nadie"
     },
     {
       "palabra": "Esqueleto Gigante",
-      "pista": "Lleva una bomba gigante al morir"
+      "pista": "Su mochila es lo peligroso"
     },
     {
       "palabra": "Guardias",
-      "pista": "Esqueletos con escudo"
+      "pista": "Sus escudos los salvan de los hechizos"
     },
     {
       "palabra": "Príncipe Oscuro",
-      "pista": "Tiene escudo y maza de área"
+      "pista": "El hermano emo con escudo"
     },
     {
       "palabra": "Cazador",
-      "pista": "Escopetazo de cerca hace mucho daño"
+      "pista": "No te acerques a su escopeta"
     },
     {
       "palabra": "Zappies",
-      "pista": "Tres carritos eléctricos"
+      "pista": "La máquina de stunlock"
     },
     {
       "palabra": "Máquina Voladora",
-      "pista": "Maestro constructor en el aire"
+      "pista": "Maestro constructor vigilando desde arriba"
     }
   ]
 }
