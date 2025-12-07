@@ -380,3 +380,13 @@ body.theme-pokemon .checkbox-container label {
     font-size: 0.9rem;
     opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+
+    body,
+    body.theme-pokemon,
+    body.theme-clash {
+        background-attachment: scroll !important;
+        background-position: center top !important;
+    }
+}
