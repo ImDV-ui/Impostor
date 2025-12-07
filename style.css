@@ -231,7 +231,7 @@ body.theme-pokemon {
     --text: #2c3e50;
     font-family: 'Pokemon Solid', sans-serif;
     letter-spacing: 2px;
-
+    background-color: transparent;
 }
 
 body.theme-pokemon::before {
@@ -254,6 +254,7 @@ body.theme-clash {
     --text: #ffffff;
     font-family: 'Supercell-Magic', sans-serif;
     letter-spacing: 1px;
+    background-color: transparent;
 }
 
 body.theme-clash::before {
@@ -311,6 +312,7 @@ body.theme-pokemon .danger-btn {
     box-shadow: 2px 2px 0 #0277bd;
     border-radius: 6px;
 }
+
 body.theme-pokemon .mode-btn {
     background: #e0e0e0;
     border: 2px solid #9e9e9e;
