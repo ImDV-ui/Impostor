@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego El Impostor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/supercell-magic" rel="stylesheet">
+</head>
+
+<body class="theme-classic">
+
+    <div class="container">
+        <h1>🕵️ El Impostor</h1>
+
+        <section id="screen-setup" class="active">
+            <h2>Ingresar Jugadores</h2>
+
+            <div id="mode-selector">
+                <button onclick="setMode('Classic')" class="mode-btn active" id="btn-classic">Clásico</button>
+                <button onclick="setMode('Pokemon')" class="mode-btn" id="btn-pokemon">Pokémon</button>
+                <button onclick="setMode('ClashRoyale')" class="mode-btn" id="btn-clash">Clash Royale</button>
+            </div>
+
+            <div id="inputs-container">
+                <input type="text" placeholder="Jugador 1" class="player-input">
+                <input type="text" placeholder="Jugador 2" class="player-input">
+                <input type="text" placeholder="Jugador 3" class="player-input">
+                <input type="text" placeholder="Jugador 4" class="player-input">
+                <input type="text" placeholder="Jugador 5" class="player-input">
+            </div>
+
+            <div id="settings-container">
+                <label for="category-select">Categoría:</label>
+                <select id="category-select" class="game-select">
+                    <!-- Options pobladas por JS -->
+                </select>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="hints-toggle" checked>
+                    <label for="hints-toggle">Activar Pistas para el Impostor</label>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 10px;">
+                <button onclick="addPlayerInput()" class="secondary-btn" style="flex-grow: 1;">+ Añadir Jugador</button>
+                <button onclick="removePlayerInput()" class="danger-btn" style="width: 50px; flex-shrink: 0;">-</button>
+            </div>
+            <br><br>
+            <button onclick="startGame()" class="primary-btn">Comenzar Juego</button>
+            <p id="error-msg" class="error"></p>
+        </section>
+
+        <section id="screen-pass" class="hidden">
+            <h2>Pasa el dispositivo a:</h2>
+            <h1 id="player-turn-name">Nombre</h1>
+            <button onclick="revealRole()" class="primary-btn">Ver mi palabra</button>
+        </section>
+
+        <section id="screen-reveal" class="hidden">
+            <h2 id="role-title">Tu palabra es:</h2>
+            <div class="card">
+                <h1 id="secret-word">PALABRA</h1>
+            </div>
+            <p class="small-text">Memorízala y no dejes que nadie más la vea.</p>
+            <button onclick="nextTurn()" class="primary-btn">Ocultar y Siguiente</button>
+        </section>
+
+        <section id="screen-discussion" class="hidden">
+            <h2>¡Todos saben su rol!</h2>
+            <p>El jugador que empieza preguntando es:</p>
+            <h1 id="starting-player" class="highlight">Nombre</h1>
+            <br>
+            <button onclick="showImpostorRevealScreen()" class="danger-btn">Revelar al Impostor</button>
+        </section>
+
+        <section id="screen-result" class="hidden">
+            <h2>El Impostor era:</h2>
+            <h1 id="impostor-name" class="impostor-text">Nombre</h1>
+            <p>La palabra era: <strong id="final-word"></strong></p>
+
+            <div class="actions">
+                <button onclick="restartGame()" class="primary-btn">Jugar de nuevo (Mismos jugadores)</button>
+                <button onclick="resetToHome()" class="secondary-btn">Volver al Inicio</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
