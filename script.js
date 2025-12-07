@@ -7,7 +7,6 @@ let selectedCategory = "";
 let hintsEnabled = true;
 let currentMode = 'Classic'; // Classic, Pokemon, ClashRoyale
 
-// Elementos del DOM
 const screens = {
     setup: document.getElementById('screen-setup'),
     pass: document.getElementById('screen-pass'),
@@ -22,11 +21,9 @@ async function loadGames() {
         const response = await fetch('data.json');
         gamesData = await response.json();
 
-        // Populate category dropdown
         const select = document.getElementById('category-select');
         select.innerHTML = '';
         Object.keys(gamesData).forEach(category => {
-            // Filter out special modes from category list
             if (category !== 'Pokemon' && category !== 'ClashRoyale') {
                 const option = document.createElement('option');
                 option.value = category;
@@ -49,12 +46,11 @@ async function loadGames() {
         select.appendChild(option);
     }
 }
-loadGames(); // Iniciar carga
+loadGames();
 
 function setMode(mode) {
     currentMode = mode;
 
-    // Actualizar botón activo
     document.querySelectorAll('.mode-btn').forEach(btn => btn.classList.remove('active'));
 
     let btnId = 'btn-classic';
@@ -65,7 +61,6 @@ function setMode(mode) {
     }
     document.getElementById(btnId).classList.add('active');
 
-    // Actualizar tema visual (clases del body)
     document.body.classList.remove('theme-classic', 'theme-pokemon', 'theme-clash');
     if (mode === 'Pokemon') {
         document.body.classList.add('theme-pokemon');
@@ -75,7 +70,6 @@ function setMode(mode) {
         document.body.classList.add('theme-classic');
     }
 
-    // Cambiar título principal según modo
     const mainTitle = document.querySelector('.container > h1');
     if (mode === 'Pokemon') {
         mainTitle.textContent = '⚡ El Impostor Pokémon';
@@ -85,7 +79,6 @@ function setMode(mode) {
         mainTitle.textContent = '🕵️ El Impostor';
     }
 
-    // Mostrar / ocultar selector de categoría
     const catLabel = document.querySelector('label[for="category-select"]');
     const catSelect = document.getElementById('category-select');
 
@@ -98,7 +91,6 @@ function setMode(mode) {
     }
 }
 
-// Funcionalidad extra: Añadir más inputs
 function addPlayerInput() {
     const container = document.getElementById('inputs-container');
     const input = document.createElement('input');
@@ -117,11 +109,9 @@ function removePlayerInput() {
 
 // 2. Comenzar Juego (Botón Aceptar)
 function startGame() {
-    // Recoger configuración
     selectedCategory = document.getElementById('category-select').value;
     hintsEnabled = document.getElementById('hints-toggle').checked;
 
-    // Recoger nombres
     const inputs = document.querySelectorAll('.player-input');
     const tempPlayers = [];
 
@@ -130,7 +120,7 @@ function startGame() {
         if (name) tempPlayers.push(name);
     });
 
-    if (tempPlayers.length < 3) { // Mínimo lógico para jugar
+    if (tempPlayers.length < 3) { 
         document.getElementById('error-msg').innerText = "Se necesitan al menos 3 jugadores.";
         return;
     }
@@ -158,7 +148,6 @@ function startGame() {
         possibleWords = gamesData['ClashRoyale'] || [];
     }
 
-    // Fallback safety
     if (!possibleWords || possibleWords.length === 0) {
         document.getElementById('error-msg').innerText = "Error: No se cargaron datos para este modo.";
         return;
@@ -166,13 +155,11 @@ function startGame() {
 
     currentGameData = possibleWords[Math.floor(Math.random() * possibleWords.length)];
 
-    // Iniciar flujo de turnos
     currentTurnIndex = 0;
     showScreen('pass');
     updatePassScreen();
 }
 
-// Actualizar pantalla de "Pasar dispositivo"
 function updatePassScreen() {
     document.getElementById('player-turn-name').innerText = players[currentTurnIndex];
 }
@@ -206,33 +193,27 @@ function nextTurn() {
         updatePassScreen();
         showScreen('pass');
     } else {
-        // Todos han visto su rol
         showDiscussionScreen();
     }
 }
 
-// 5. Fase de Discusión
 function showDiscussionScreen() {
     showScreen('discussion');
-    // Elegir jugador inicial aleatorio
     const randomStarter = players[Math.floor(Math.random() * players.length)];
     document.getElementById('starting-player').innerText = randomStarter;
 }
 
-// 6. Revelar Impostor
 function showImpostorRevealScreen() {
     showScreen('result');
     document.getElementById('impostor-name').innerText = players[impostorIndex];
     document.getElementById('final-word').innerText = currentGameData.palabra;
 }
 
-// Reiniciar con mismos jugadores (Vuelve al paso 2 interno)
 function restartGame() {
-    // Reordenar de nuevo para que no sea obvio el orden
+
     players.sort(() => Math.random() - 0.5);
     impostorIndex = Math.floor(Math.random() * players.length);
 
-    // Usar misma categoría / modo
     let possibleWords = [];
     if (currentMode === 'Classic') {
         possibleWords = gamesData[selectedCategory] || [];
@@ -248,14 +229,9 @@ function restartGame() {
     showScreen('pass');
     updatePassScreen();
 }
-
-// Volver al inicio (Vuelve al paso 1)
 function resetToHome() {
     showScreen('setup');
-    // Puedes limpiar inputs si quieres
 }
-
-// Utilidad para cambiar pantallas
 function showScreen(screenName) {
     Object.values(screens).forEach(s => s.classList.remove('active'));
     Object.values(screens).forEach(s => s.classList.add('hidden'));
