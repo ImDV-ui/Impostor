@@ -242,7 +242,19 @@ body.theme-pokemon {
     /* Dark Blue-Grey */
     font-family: 'Pokemon Solid', sans-serif;
     letter-spacing: 2px;
-    background: url('pokemon_bg_fantasy.jpg') no-repeat center center fixed;
+
+    /* Background moved to pseudo-element */
+}
+
+body.theme-pokemon::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('pokemon_bg_fantasy.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -252,11 +264,24 @@ body.theme-clash {
     --primary: #4169e1;
     --accent: #ffd700;
     --text: #ffffff;
-    background: url('clash_bg_final.png') no-repeat center center fixed;
-    background-size: cover;
+    /* Background moved to pseudo-element */
     font-family: 'Supercell-Magic', sans-serif;
     letter-spacing: 1px;
 }
+
+body.theme-clash::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('clash_bg_final.png') no-repeat center center;
+    background-size: cover;
+}
+
+
 
 /* Detalles por tema */
 
@@ -379,14 +404,4 @@ body.theme-pokemon .checkbox-container label {
 .small-text {
     font-size: 0.9rem;
     opacity: 0.8;
-}
-
-@media (max-width: 768px) {
-
-    body,
-    body.theme-pokemon,
-    body.theme-clash {
-        background-attachment: scroll !important;
-        background-position: center top !important;
-    }
 }
